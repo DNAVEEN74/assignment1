@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://DNAVEEN74.github.io/assignment1'",
+    "build-gh": "parcel build --public-url https://DNAVEEN74.github.io/assignment1",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
